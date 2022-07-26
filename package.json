@@ -1,0 +1,28 @@
+{
+  "name": "whatsapp-nodejs-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moyin0luwa/WhatsApp-NodeJS-Chatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moyin0luwa/WhatsApp-NodeJS-Chatbot/issues"
+  },
+  "homepage": "https://github.com/moyin0luwa/WhatsApp-NodeJS-Chatbot#readme",
+  "dependencies": {
+    "whatsapp-web.js": "^1.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
